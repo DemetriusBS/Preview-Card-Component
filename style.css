@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+.card{
+    max-width: 900px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.cards{
+    width: 480px;
+    height: 456px;
+}
+
+.card1{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card3{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.imagens{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.estilos{
+    font-family: 'Lexend Deca', sans-serif;
+    color: #FFFFFF;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.textos{
+    font-family: 'Big Shoulders Display', cursive;
+    color:hsla(0, 0%, 100%, 0.75);
+    margin-left: 30px;
+    text-align: left;
+    margin-right: 30px;
+    line-height: 44px;
+}
+
+.btn{
+    font-family: 'Big Shoulders Display', cursive;
+    margin-left: 30px;
+    border-radius: 50px;
+    padding: 6px 30px;
+    border: none;
+    margin-top: 33px;
+}
+
+.btnCard1{
+    color:hsl(31, 77%, 52%);
+}
+
+.btnCard2{
+    color: hsl(184, 100%, 22%);
+}
+
+.btnCard3{
+   color: hsl(179, 100%, 13%);
+}
